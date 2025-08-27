@@ -1,5 +1,5 @@
 🔄 Palindrome Checker - Lightning Web Component (LWC)
-Description
+📖 Description
 
 A Salesforce Lightning Web Component that checks whether a given word is a palindrome.
 This project demonstrates data binding, event handling, and string manipulation in LWC.
@@ -12,22 +12,23 @@ Styled using Salesforce Lightning Design System (SLDS).
 
 Can be deployed on Home Page, Record Page, or App Page.
 
+⚙️ Installation
 
-Installation
+Clone this repository
 
-Clone this repository:
 
-Deploy the component to your Salesforce org using SFDX or VS Code:
+Deploy the component to your Salesforce org using SFDX or VS Code
+
 
 Open Lightning App Builder in Salesforce.
 
-Drag and drop Palindrome Checker onto a Home Page, App Page, or Record Page.
+Drag and drop the Palindrome Checker component onto a Home Page, App Page, or Record Page.
 
-Usage
+▶️ Usage
 
 Enter a word in the input box.
 
-Click Check Palindrome.
+Click "Check Palindrome".
 
 The component will display:
 
@@ -35,7 +36,7 @@ The component will display:
 
 ❌ Word is not a palindrome
 
-Example Logic
+🧩 Example Logic
 handleCheckPalindrome() {
     this.reversedWord = this.word.split('').reverse().join('');
     if (this.word === this.reversedWord) {
