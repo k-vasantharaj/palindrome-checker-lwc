@@ -36,12 +36,7 @@ The component will display:
 
 ❌ Word is not a palindrome
 
-🧩 Example Logic
-handleCheckPalindrome() {
-    this.reversedWord = this.word.split('').reverse().join('');
-    if (this.word === this.reversedWord) {
-        this.isPalindrome = '✅ Word is a palindrome';
-    } else {
-        this.isPalindrome = '❌ Word is not a palindrome';
-    }
-}
+## 📸 Screenshots
+
+<img width="308" height="170" alt="word is palindrome" src="https://github.com/user-attachments/assets/07f6696c-b98e-4807-a4b8-fc0ee32d578c" />
+<img width="306" height="168" alt="word is not a palindrome" src="https://github.com/user-attachments/assets/87cb9ff3-1744-4333-b50b-a24ee9c59841" />
